@@ -12,11 +12,17 @@ Update and upgrade all packages on the OS.
             
 
 3. Use the pip tool to install the following libraries: nltk (version 3.2.5 is used because newer versions gave errors), numpy, speechrecognition, and pyaudio 
+
     sudo pip3 install numpy
+    
     sudo pip3 install SpeechRecognition
+    
     sudo pip3 install nltk==3.2.5
+    
     sudo pip3 install python3-pyaudio
+    
 if you have challenges with the paudio you may have to update the audio libraries :
+
     sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip3 install pyaudio
  
 Download the stopwords corpus and WordnetLemmatizer  for the nltk
