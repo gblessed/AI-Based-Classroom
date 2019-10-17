@@ -1,0 +1,10 @@
+FOR AN ONLINE TEST + transfer of data 
+Install the flask framework on both the laptop and the Raspberry pi
+Using the pip tool : pip3 install flask
+
+The server is started on the laptop, running the app.py, <<please don’t run the program on idle, just run it on your python>>
+
+Run textrankonline.py  on the raspberry pi 
+
+As you talk, the keywords are extracted, they are pushed in JSON to be used in by the cloud model.
+
