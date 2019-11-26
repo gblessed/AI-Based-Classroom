@@ -39,4 +39,9 @@ An offline test was carried with the paper.wav file as input.
 
 The Top ten keywords extracted from the abstract of the input  are: network, energy, use, consumption, 2020, learning, case, imt, machine, improve, market, coverage. 
 
+-------------------------
+The dataset for training of the cloud model are found in the learn-data.rar file, it consists of text documents and .key files which are the labels. The files where gotten from audio files which where converted to  text using the google speech to text api.
+The code for training of the naive baye's model form the data set is in the training.py and training_individual.py
+the training.py learns based on the keywords as a tuple, while the training_individual uses the keywords indiviually to train the model. the model is then saved using pickle.
+
 
